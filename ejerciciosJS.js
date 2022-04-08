@@ -53,5 +53,18 @@ let strCambiado = str1.replace("vecina","vecino")
 
 console.log(strCambiado)
 
+//EJERCICIO 2  #Tema cadenas de texto
+let str2= "El perro de mi vecina es muy molesto"
+let strCambiado2 = str2.toUpperCase()
+
+console.log(strCambiado2)
+
+
+
+//EJERCICIO #Tema 2 
+//EJERCICIO #Tema 2 
+//EJERCICIO #Tema 2 
+//EJERCICIO #Tema 2 
+//EJERCICIO #Tema 2 
 //EJERCICIO #Tema 2 
 //EJERCICIO #Tema 2 
