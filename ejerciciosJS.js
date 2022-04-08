@@ -14,7 +14,20 @@ const cambio = () => {
 cambio();
 console.log (str)
 
-//EJERCICIO #Tema 2 
+//EJERCICIO #Tema Bifurcaciones if else y switch
+
+
+for (a = 1 ; a <= 100 ; a++) {
+    if ((a % 2) === 0){
+    console.log (`${a} es numero par`)
+    
+    }
+    else{
+    console.log (`${a} es numero impar`)
+            
+    }
+
+}
 //EJERCICIO #Tema 2 
 //EJERCICIO #Tema 2 
 //EJERCICIO #Tema 2 
