@@ -46,6 +46,12 @@ for (n = 1 ; n<=10 ; n++){
     }
 
 }
-//EJERCICIO #Tema 2 
+//EJERCICIO 1  #Tema cadenas de texto
+
+let str1 = "El perro de mi vecina es muy molesto"
+let strCambiado = str1.replace("vecina","vecino")
+
+console.log(strCambiado)
+
 //EJERCICIO #Tema 2 
 //EJERCICIO #Tema 2 
