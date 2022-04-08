@@ -61,7 +61,13 @@ console.log(strCambiado2)
 
 
 
-//EJERCICIO #Tema 2 
+//EJERCICIO #Tema 5
+
+for (i=0 ; i<=10 ; i++){
+    let numero = Math.random()*20 ;
+    console.log(Math.round(numero))
+}
+
 //EJERCICIO #Tema 2 
 //EJERCICIO #Tema 2 
 //EJERCICIO #Tema 2 
