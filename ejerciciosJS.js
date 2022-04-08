@@ -14,7 +14,7 @@ const cambio = () => {
 cambio();
 console.log (str)
 
-//EJERCICIO #Tema Bifurcaciones if else y switch
+//EJERCICIO 1 #Tema Bifurcaciones if else y switch
 
 
 for (a = 1 ; a <= 100 ; a++) {
@@ -28,7 +28,24 @@ for (a = 1 ; a <= 100 ; a++) {
     }
 
 }
-//EJERCICIO #Tema 2 
+//EJERCICIO 2 #Tema Bifurcaciones if else y switch 
+let resultado = false;
+
+for (n = 1 ; n<=10 ; n++){
+    for (i = 2 ; i < n ; i++){
+        if((n % i) === 0){
+            resultado = true;
+            break;
+        }
+    }
+    if (resultado) {
+        console.info(`${n} no es primo`)
+        resultado = false;
+    } else {
+        console.info(`${n} es primo`)
+    }
+
+}
 //EJERCICIO #Tema 2 
 //EJERCICIO #Tema 2 
 //EJERCICIO #Tema 2 
