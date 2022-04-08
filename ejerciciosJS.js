@@ -68,7 +68,12 @@ for (i=0 ; i<=10 ; i++){
     console.log(Math.round(numero))
 }
 
-//EJERCICIO #Tema 2 
+//EJERCICIO #Tema 6
+let Arr = [];
+for (i = 10; i <= 20; i++){
+    Arr.push(i)
+}
+console.log(Arr)
 //EJERCICIO #Tema 2 
 //EJERCICIO #Tema 2 
 //EJERCICIO #Tema 2 
