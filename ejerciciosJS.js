@@ -74,7 +74,13 @@ for (i = 10; i <= 20; i++){
     Arr.push(i)
 }
 console.log(Arr)
-//EJERCICIO #Tema 2 
+
+
+//EJERCICIO 1 y 2  #Tema 7
+
+//archivo Coche.js que esta en el repositorio
+
+
 //EJERCICIO #Tema 2 
 //EJERCICIO #Tema 2 
 //EJERCICIO #Tema 2 
