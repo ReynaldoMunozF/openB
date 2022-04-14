@@ -99,16 +99,17 @@ console.log(multiplicacion(4,5))
 console.log(division(8,4))
 console.log(division(8,0))
 
-//EJERCICIO2 #Tema 8 FUNCIONES 
+//EJERCICIO2 y 3 #Tema 8 FUNCIONES 
 
 const eliminarElemento = (cadena) => {
-    if(!Array.isArray(cadena)){
-        throw "el elemento ingresado no es un array"
+    
+    if(!Array.isArray(cadena) || 0 === cadena.length ) {
+        throw "el elemento ingresado no es un array valido"
     }
     cadena.pop();
     return cadena;
 }
 
-console.log(eliminarElemento([1,2,3,8]))
+console.log(eliminarElemento([1,2,3]))
 //EJERCICIO #Tema 2 
 //EJERCICIO #Tema 2 
