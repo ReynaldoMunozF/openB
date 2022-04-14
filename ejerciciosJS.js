@@ -81,7 +81,24 @@ console.log(Arr)
 //archivo Coche.js que esta en el repositorio
 
 
-//EJERCICIO #Tema 2 
+//EJERCICIO1 #Tema 8 FUNCIONES
+
+const suma = (a,b) => a + b;
+const resta = (a,b) => a - b;
+const multiplicacion = (a,b) => a * b;
+const division = (a,b) => {
+    if (b === 0){
+        throw " el divisor debe ser diferente de 0";
+    }
+    return Math.round(a / b) 
+}
+
+console.log(suma(4,5))
+console.log(resta(4,5))
+console.log(multiplicacion(4,5))
+console.log(division(8,4))
+console.log(division(8,0))
+
 //EJERCICIO #Tema 2 
 //EJERCICIO #Tema 2 
 //EJERCICIO #Tema 2 
