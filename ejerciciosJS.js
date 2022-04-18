@@ -111,5 +111,39 @@ const eliminarElemento = (cadena) => {
 }
 
 console.log(eliminarElemento([1,2,3]))
+
+//EJERCICIO 1  #Tema 9 CONTROL DE ERRORES 
+
+const suma = (a,b) => {
+        
+    if(isNaN(a) || isNaN(b) ){
+        throw TypeError("Numero invalido")
+    }
+    else return a + b;
+
+}
+
+//EJERCICIO 2 #Tema 9 CONTROL DE ERRORES
+
+const suma2 = (a,b) => {
+        
+    if(isNaN(a) || isNaN(b) ){
+        throw TypeError("Numero invalido");
+    }
+    else return a + b;
+
+}
+
+try{
+let sumaFinal = suma2(1,2)
+console.log(sumaFinal)
+
+}
+catch(mierror) {
+throw Error("La calculadora esta fallando");
+}
+
+//EJERCICIO #Tema 2 
+//EJERCICIO #Tema 2 
 //EJERCICIO #Tema 2 
 //EJERCICIO #Tema 2 
