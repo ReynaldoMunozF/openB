@@ -143,7 +143,25 @@ catch(mierror) {
 throw Error("La calculadora esta fallando");
 }
 
-//EJERCICIO #Tema 2 
+//EJERCICIO # 1 Tema sintaxis, variables y palabras 
+
+let nombre = "reynaldo"
+let edad = 36
+let eresDesarrollador = true
+let fechaNacimiento = new Date(1985, 10 ,14) 
+
+
+const libroFavorit ={
+    titulo : "caballo de troya" ,
+    autor : "j.j. Benitez" ,
+    anyo : 1984,
+    url : "www.caballodetrya.com",
+
+}
+
+const lista = [nombre,edad,eresDesarrollador,fechaNacimiento,libroFavorit]
+console.log(lista)
+
 //EJERCICIO #Tema 2 
 //EJERCICIO #Tema 2 
 //EJERCICIO #Tema 2 
