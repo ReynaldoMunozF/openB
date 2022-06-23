@@ -162,6 +162,41 @@ const libroFavorit ={
 const lista = [nombre,edad,eresDesarrollador,fechaNacimiento,libroFavorit]
 console.log(lista)
 
-//EJERCICIO #Tema 2 
+//EJERCICIO #Tema estructuras de control 
+function factorialFor(numero) {
+    resultado = 1
+    for( i=1 ; i<=numero; i++){
+        resultado*=i;
+    }
+    return resultado;
+}
+
+a = factorialFor(10);
+console.log(a)
+
+function factorialWhile(numero){
+    resultado = 1;
+    i = 1;
+    while (i<=numero){
+        resultado*=i;
+        i++;
+    }
+    return resultado;
+}
+console.log(factorialWhile(10))
+
+function factorialBreak(numero){
+    resultado = 1;
+    i = 1;
+    while (true){
+        if (i>numero){
+            break;
+        }
+        resultado *=i;
+        i++;
+    }
+    return resultado;
+}
+console.log(factorialBreak(10))
 //EJERCICIO #Tema 2 
 //EJERCICIO #Tema 2 
