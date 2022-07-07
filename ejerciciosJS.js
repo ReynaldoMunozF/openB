@@ -198,5 +198,31 @@ function factorialBreak(numero){
     return resultado;
 }
 console.log(factorialBreak(10))
-//EJERCICIO #Tema 2 
+
+//EJERCICIO #Tema CADENA DE TEXTO
+let nombre ="Reynaldo";
+let apellido = "Muñoz Flores";
+let estudiante = `el nombre es ${nombre} ${apellido}`;
+let estudianteMayus = estudiante.toUpperCase();
+let estudianteMinus = estudiante.toLowerCase();
+let tamaño = estudiante.length;
+let primera = nombre.substring(0,1);
+let final = nombre.substring(nombre.length-1);
+let sinEspacios = estudiante.replace(/\s+/g,``);
+let comprobacion = estudiante.includes(nombre);
+
+
+
+
+
+console.log(estudianteMayus);
+console.log(estudianteMinus);
+console.log(tamaño);
+console.log(primera);
+console.log(final);
+console.log(sinEspacios);
+console.log(comprobacion);
+
+
+ 
 //EJERCICIO #Tema 2 
