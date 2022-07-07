@@ -225,4 +225,19 @@ console.log(comprobacion);
 
 
  
-//EJERCICIO #Tema 2 
+//EJERCICIO #Tema NUMEROS EN JAVASCRIPT
+
+
+let altura = 180 ;
+let alturaMetros = 1.80;
+let peso = 116.50;
+let alturaRedondeoArriba = Math.ceil(alturaMetros);
+let alturaRedondeoAbajo = Math.floor(peso);
+let mayorValorJs = Number.MAX_VALUE;
+let textoMayorValor = `el máximo valor que se puede obtener en Javascript es ${mayorValorJs}`;
+
+
+console.log(alturaRedondeoArriba);
+console.log(alturaRedondeoAbajo);
+console.log(mayorValorJs);
+console.log(textoMayorValor);
